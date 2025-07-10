@@ -79,6 +79,7 @@ impl<'info> Make<'info> {
 
         transfer_checked(cpi_ctx, deposit, self.mint_a.decimals)
 
-    }
+    };
+    Ok(())
 
 }
